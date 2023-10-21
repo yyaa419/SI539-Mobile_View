@@ -1,29 +1,64 @@
 html{
     font-size: 1em;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+
+.skip-link {
+    position: absolute;
+    left: -9999px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+  
+
+.skip-link:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    overflow: visible;
 }
 
 
 nav a{
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 
-nav:hover{
+nav li{
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+nav:hover, nav:focus{
     text-decoration: underline;
 }
+
 
 h2{
     text-align: center;
     font-size: 2rem;
+    font-family: sans-serif;
+}
+
+
+p{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 1.3rem;
 }
 
 .container {
     border: 1px solid #ccc;
     padding: 20px;
     margin: 10px;
-    background-color: #f9f9f9;
+    background-color: #7F5539;
 }
 
 .container:last-child{
@@ -35,7 +70,7 @@ main {
     grid-template-columns: 1fr 1fr ;
     gap: 20px;
     padding: 20px;
-    background-color: #f2f2f2;
+    background-color: #E6CCB2;
 }
 
 img {
@@ -46,6 +81,16 @@ img {
 #portrait{
     display: flex;
     justify-content: center;
+}
+
+.pet-image img{
+    border: 10px dashed white;
+    border-radius: 15px;
+}
+
+.pet-gallary img,video{
+    border: 5px solid white;
+    border-radius: 10px;
 }
 
 
