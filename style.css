@@ -1,0 +1,162 @@
+html{
+    font-family: Helvetica, sans-serif;
+}
+
+/*Navigation Bar*/
+
+.skip-link {
+    position: absolute;
+    left: -9999px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+  
+
+.skip-link:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    overflow: visible;
+}
+
+nav{
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+}
+
+
+nav a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: #7F5539;
+    font-size: 1em;
+}
+
+
+nav li{
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+nav:hover, nav:focus{
+    text-decoration: underline;
+}
+
+/*Font Size*/
+
+h2{
+    text-align: center;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+
+p{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 1em;
+}
+
+/*container for the whole pet page*/
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    /* padding: 10px; */
+    background-color: #E6CCB2;
+}
+
+/*for pet*/
+.Bacon{
+    grid-column: 2/-1;
+    grid-row: 1;
+}
+
+.Cody{
+    grid-column: 2/-1;
+    grid-row: inherit;
+}
+
+.Brul{
+    grid-column: 2/-1;
+    grid-row: inherit;
+}
+
+.Rocket{
+    grid-column: 2/-1;
+    grid-row: inherit;
+}
+
+.Smoothie{
+    grid-column: 2/-1;
+    grid-row: inherit;
+}
+
+/*for recepies*/
+.chocolate_cookies{
+    grid-column: 2/-1;
+    grid-row: 1;
+}
+
+.chicken_curry{
+    grid-column: 2/-1;
+    grid-row: inherit;
+}
+
+.cola_wings{
+    grid-column: 2/-1;
+    grid-row: inherit;
+}
+
+
+
+/*for travel*/
+.yellow_stone{
+    grid-column: 2/-1;
+    grid-row: 1;
+}
+
+.phuket{
+    grid-column: 2/-1;
+    grid-row: inherit;
+}
+
+.paris{
+    grid-column: 2/-1;
+    grid-row: inherit;
+}
+
+.bangkok{
+    grid-column: 2/-1;
+    grid-row: inherit;
+}
+
+.barcelona{
+    grid-column: 2/-1;
+    grid-row: inherit;
+}
+
+.chengdu{
+    grid-column: 2/-1;
+    grid-row: inherit;
+}
+
+
+/*for image*/
+#portrait img,video{
+    border: 10px dashed white;
+    border-radius: 15px;
+}
+
+#photo_gallery img,video{
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+
+
+
+
