@@ -61,14 +61,15 @@ p{
 }
 
 /*container for the whole pet page*/
-.pet .container{
+.container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 10px;
-    padding: 10px;
+    /* padding: 10px; */
     background-color: #E6CCB2;
 }
 
+/*for pet*/
 .Bacon{
     grid-column: 2/-1;
     grid-row: 1;
@@ -94,39 +95,68 @@ p{
     grid-row: inherit;
 }
 
-/*container for specific pet*/
-.Bacon{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
-    padding: 10px;
-}
-
-.Bacon .portrait{
-    grid-column: 1/2;
-    grid-row: 1;
-}
-
-.Bacon .introduction{
+/*for recepies*/
+.chocolate_cookies{
     grid-column: 2/-1;
     grid-row: 1;
 }
 
-.Bacon .pet-gallary{
-    grid-column: 1/-1;
-    grid-row: 2;
+.chicken_curry{
+    grid-column: 2/-1;
+    grid-row: inherit;
+}
+
+.cola_wings{
+    grid-column: 2/-1;
+    grid-row: inherit;
 }
 
 
-.pet-image img{
+
+/*for travel*/
+.yellow_stone{
+    grid-column: 2/-1;
+    grid-row: 1;
+}
+
+.phuket{
+    grid-column: 2/-1;
+    grid-row: inherit;
+}
+
+.paris{
+    grid-column: 2/-1;
+    grid-row: inherit;
+}
+
+.bangkok{
+    grid-column: 2/-1;
+    grid-row: inherit;
+}
+
+.barcelona{
+    grid-column: 2/-1;
+    grid-row: inherit;
+}
+
+.chengdu{
+    grid-column: 2/-1;
+    grid-row: inherit;
+}
+
+
+/*for image*/
+#portrait img,video{
     border: 10px dashed white;
     border-radius: 15px;
 }
 
-.pet-gallary img,video{
+#photo_gallery img,video{
     border: 5px solid white;
     border-radius: 10px;
 }
+
+
 
 
 
