@@ -23,7 +23,7 @@ html{
 
 nav{
     position: fixed;
-    background-color: rgb(255, 255, 255);
+    background-color: #E6CCB2;
 }
 
 
@@ -65,8 +65,8 @@ p{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 10px;
-    /* padding: 10px; */
-    background-color: #E6CCB2;
+    padding: 10px;
+    /* background-color: #E6CCB2; */
 }
 
 /*for pet*/
